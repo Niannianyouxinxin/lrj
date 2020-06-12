@@ -2,9 +2,10 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Document</title>
+	<title>你的故事我来执笔</title>
 	<link rel="stylesheet" href="./css/bootstrap.css">
 	<link rel="stylesheet" href="demo.css">
+	<link rel="icon" href="./images/萌猫音乐.ico">
 </head>
 <body>
 	<div class="banner-top">
@@ -32,16 +33,16 @@
     						</ul>
     						<ul class="nav navbar-nav navbar-right">
     							<li>
-    								<a href="#">Home</a>
+    								<a href="#Home">Home</a>
     							</li>
     							<li>
-    								<a href="#">About</a>
+    								<a href="#About">About</a>
     							</li>
     							<li>
-    								<a href="#">My photos</a>
+    								<a href="#MyPhotos">My photos</a>
     							</li>
     							<li>
-    								<a href="#">Contact</a>
+    								<a href="#Contact">Contact</a>
     							</li>
     						</ul>
     					</div><!-- /.navbar-collapse -->
@@ -50,8 +51,8 @@
     		</div>
     	</div>
     	<!-- 轮播图部分 -->
-    	<div class="showImage">
-    		<div id="carousel-example-generic" class="carousel slide" data-ride="carousel" data-Interval="1000">
+    	<div class="showImage" id="Home">
+    		<div id="carousel-example-generic" class="carousel slide" data-ride="carousel" data-Interval="2000">
     			<!-- Indicators -->
     			<ol class="carousel-indicators">
     				<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
@@ -93,7 +94,7 @@
     		</div>
     	</div>
     </div>
-    <div class="banner-center">
+    <div class="banner-center" id="About">
     	<div class="container">
     		<div class="row">
     			<div class="col-lg-6 col-md-6"></div>
@@ -101,17 +102,18 @@
     				<div class="textBox">
     					<h2>ABOUT ME</h2>
     					<h5>My name is 黎若稼</h5>
-    					<p>Nulla eget mauris quis elit mollis ornare vitae ut odio. Cras tincidunt, augue vitae sollicitudin commodo, quam elit varius est, et ornare ante massa quis tellus. Mauris nec lacinia nisl. Curabitur tempus tellus et vulputate vestibulum.</p>
-    					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
-    					<p>
-    						<em>Nulla eget mauris quis elit mollis ornare vitae ut odio. Cras tincidunt, augue vitae sollicitudin commodo, quam elit varius est</em>
-    				    </p>
+						  <div class="list-group">
+							<a href="./routine1.html" class="list-group-item list-group-item-success">我也想能够照亮你的世界</a>
+							<a href="./routine2.html" class="list-group-item list-group-item-info">你是清晨白米稀饭</a>
+							<a href="./routine3.html" class="list-group-item list-group-item-warning">人生中的糖果</a>
+							<a href="#" class="list-group-item list-group-item-danger">时间还长，未完待续...</a>
+						  </div>
     				</div>
     			</div>
     		</div>
     	</div>
     </div>
-    <div class="MyPhotos">
+    <div class="MyPhotos" id="MyPhotos">
     	<h3>My Photos</h3>
     	<div class="container-fluid">
     		<div class="row">
@@ -214,7 +216,7 @@
     		</div>
     	</div>
     </div>
-    <div class="footer">
+    <div class="footer" id="Contact">
         <div class="container-fluid">
             <h1>
                 <span class="glyphicon glyphicon-camera"></span>
@@ -233,7 +235,9 @@
                     <a href="#" class="glyphicon glyphicon-phone-alt"></a>
                 </li>
             </ul>
-            <h5>Copyright © 2017.Company name All rights reserved.</h5>
+            <p>
+                <a href="http://beian.miit.gov.cn">黑ICP备20003163号</a>   
+            </p>
         </div>
     </div>
 
